@@ -35,6 +35,37 @@ Baixe o repositório para sua máquina:
     $ git clone git://github.com/funcoeszz/funcoeszz.git ~/funcoeszz
     $ cd ~/funcoeszz
 
+Teste se sua máquina possui todas as funções necessárias para o funcionamento das funções zz:
+
+    $ ./funcoeszz zzzz --teste
+    Procurando o comando awk...   OK
+    Procurando o comando bc...    OK
+    Procurando o comando cat...   OK
+    Procurando o comando chmod... OK
+    Procurando o comando clear... OK
+    Procurando o comando cp...    OK
+    Procurando o comando cpp...   OK
+    Procurando o comando cut...   OK
+    Procurando o comando diff...  OK
+    Procurando o comando du...    OK
+    Procurando o comando find...  OK
+    Procurando o comando fmt...   OK
+    Procurando o comando grep...  OK
+    Procurando o comando iconv... OK
+    Procurando o comando lynx...  OK
+    Procurando o comando mv...    OK
+    Procurando o comando od...    OK
+    Procurando o comando ps...    OK
+    Procurando o comando rm...    OK
+    Procurando o comando sed...   OK
+    Procurando o comando sleep... OK
+    Procurando o comando sort...  OK
+    Procurando o comando tail...  OK
+    Procurando o comando tr...    OK
+    Procurando o comando uniq...  OK
+    Verificando a codificação do sistema... UTF-8
+    Verificando a codificação das Funções ZZ... UTF-8
+
 Rode o comando seguinte para adicionar o carregamento das Funções ZZ no final de seu `~/.bashrc`:
 
     $ ./funcoeszz zzzz --bashrc
